@@ -14,17 +14,17 @@ Im using vscode, running linux, with python3 being used.
 
 <center><h1>Libraries</h1></center>
 
-The libraries used in this project are as follows,
+The libraries used in this project are as follows:
 
-<h2>Server</h2>
-- socket
-- threading
+## Server
+- `socket`
+- `threading`
 
-<h2>Client</h2>
-- socket
-- time
-- random
-- string
+## Client
+- `socket`
+- `time`
+- `random`
+- `string`
 
 <center><h1>Authors</h1></center>
 
