@@ -8,6 +8,13 @@ The messages transmitted to the server are obfuscated through a rudimentary ciph
 
 The deciphering process relies on a specific pattern embedded within the transmitted packet, as neither the server nor the client possesses an encryption key. This pattern, included in the packet, is essential for decoding the message. Without knowledge of this pattern, the message appears as random noise. However, once the server applies the pattern, the original message is reconstructed and can be displayed to other connected clients.
 
+<center><h1>Run the program</h1></center>
+You need to run the server as `sudo` since socket is being used to listen to clients.
+`./server.py`, the server should then be running listening to clients.
+
+After the server is started run the client software which will connect to the server immidiately.
+`./client.py`, You should now be able to send messages to the server.
+
 <center><h1>Software</h1></center>
 
 Im using vscode, running linux, with python3 being used.
