@@ -13,24 +13,6 @@ You need to run the server as `sudo` since the socket is being used to listen to
 
 After the server is started, run the client software with `./client.py`, which will connect to the server immediately. You should now be able to send messages to the server.
 
-<center><h1>Software</h1></center>
-
-Im using vscode, running linux, with python3 being used.
-
-<center><h1>Libraries</h1></center>
-
-The libraries used in this project are as follows:
-
-## Server
-- `socket`
-- `threading`
-
-## Client
-- `socket`
-- `time`
-- `random`
-- `string`
-
 <center><h1>Authors</h1></center>
 
 This project was created and maintained by Saajaadeen M. Jeffries
